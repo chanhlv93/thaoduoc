@@ -1,0 +1,89 @@
+/*
+ * # ------------------------------------------------------------------------
+# JA Rasite - Beta Version - Version 1.0 - Licence Owner JA106916
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+# ------------------------------------------------------------------------
+ */
+ 
+.ja-slidenews-item {
+	border-bottom: 1px dotted #ddd;
+	padding: 12px 0;
+}
+
+.ja-slidenews-item span.image-desc {
+	border: 1px solid #ddd;
+	display: block;
+	float: left;
+	margin: 3px 10px 0 0;
+	padding: 4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.ja-slidenews-item .ja-title {
+    color:#43800B;
+    display:block;
+    font-size:100%;
+    font-weight: bold;
+    line-height:normal;
+    text-align:justify;
+    text-decoration:none;
+}
+
+.ja-slidenews-item .ja-title:hover,
+.ja-slidenews-item .ja-title:focus,
+.ja-slidenews-item .ja-title:active {
+	color: #3D393A;
+}
+
+.ja-slidenews-item .ja-createdate {
+	color: #757575;
+	font-size: 92%;
+	font-weight: bold;
+	padding: 2px 5px 2px 0;
+}
+
+.ja-sidenews-title {
+	font-weight: bold;
+}
+
+.ja-sidenews-postdate {
+	font-size: 85%;
+}
+
+/* layout ---*/
+.ja-sidenews {
+	cursor: pointer;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+.ja-sidenews-display {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.ja-sidenews-desc {
+	padding: 0px 3px 0px 3px;
+}
+
+.ja-slidenews-cover {
+	bottom: 0;
+	float: left;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	z-index: 3;
+}

@@ -1,0 +1,42 @@
+Item(bai viet)
+- Id
+- Name
+- Des
+- Image
+- Content
+- Date
+- Publish
+- Order
+- Price
+- Params (Additional information needed)
+ 
+Group 
+- Id
+- Name
+- Des
+- Image
+- Params
+- Type (Menu top, bai viet)
+
+
+Group Item
+- Id
+- ItemId
+- GroupId
+- Order
+- Params
+
+
+Order
+- Name
+- Email
+- Phone
+- Address
+- Content
+- Status
+- CartId
+
+Cart
+- ID
+- Item ID
+- Quantity
